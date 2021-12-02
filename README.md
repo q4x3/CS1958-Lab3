@@ -3,6 +3,7 @@
 ## 内容概要
 
 本学期的第三项大作业要求同学们完成vector类的编写，其特性类似于stl中的vector。
+Credit to ACM Class.
 
 **Lab3的分数构成如下:**
 
