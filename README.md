@@ -1,5 +1,34 @@
 # CS1958 程序设计与数据结构Ⅰ Lab3
 
+## 12.17新增：最终评分所使用的测试脚本
+**请保证你的电脑中安装了valgrind**
+
+使用方法：
+1. 下载grade.sh到相应目录下(与vector.hpp在同一目录下)
+2. 在你的工作目录下(例如，我的工作目录是~/cpp/CS1958-Lab3)，执行`chmod 777 ./grade.sh`
+3. 在你的工作目录下执行`./grade.sh`，如果结果如下，恭喜通过测试！(注：第一行为所执行的命令)
+```shell
+qqqqxxx@DESKTOP-M6D01OA:~/cpp/CS1958-Lab3$ ./grade.sh
+-------------------------Test One--------------------------
+Testing for one... May take long...
+Success test one!
+Memory testing for one... May take long...
+0 leaks
+0 errors
+-------------------------Test Two--------------------------
+Testing for two... May take long...
+Success test two!
+Memory testing for two... May take long...
+0 leaks
+0 errors
+------------------------Test Three-------------------------
+Testing for three... May take long...
+Success test three!
+Memory testing for three... May take long...
+0 leaks
+0 errors
+```
+
 ## 内容概要
 
 本学期的第三项大作业要求同学们完成vector类的编写，其特性类似于stl中的vector。
